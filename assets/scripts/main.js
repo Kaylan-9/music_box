@@ -1,10 +1,10 @@
 const $ = document.querySelector.bind(document);
 const $all = document.querySelectorAll.bind(document);
 const btns=$all("ul#sounds > li button");
-let sounds=new Object();
-let audioname=new String();
-let btnmute=$('#btnmute');
-let playing=true;
+var sounds=new Object();
+var audioname=new String();
+var btnmute=$('#btnmute');
+var playing=true;
 
 for(let i=0;i<btns.length;i++){
     sounds[i]=new Object();
